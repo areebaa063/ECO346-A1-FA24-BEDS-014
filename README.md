@@ -98,9 +98,7 @@ Weighted quantiles are calculated according to the assignment's specified method
 
 ### Figure
 
-The weighted histogram is saved as:
-
-`figures/distribution.svg`
+The weighted histogram is saved as: `figures/distribution.svg`
 
 ### Interpretation
 
@@ -149,9 +147,7 @@ The largest gender gap is identified by comparing the absolute difference betwee
 
 ### Figure
 
-The R literacy graph is saved as:
-
-`figures/literacy.svg`
+The R literacy graph is saved as: `figures/literacy.svg`
 
 ### Interpretation
 
@@ -174,9 +170,7 @@ ggplot(lit, aes(age, literate)) +
   geom_point()
 ```
 
-The original graph is saved as:
-
-`figures/default.svg`
+The original graph is saved as: `figures/default.svg`
 
 ### Redesigned Graph
 
