@@ -1,11 +1,11 @@
 # ECO346 Assignment 1: Data Visualization Techniques for Economists
 
-**University:** COMSATS University Islamabad, Lahore Campus
-**Course:** ECO346 — Data Visualization Techniques for Economists
+**University:** COMSATS University Islamabad, Lahore Campus   
+**Course:** ECO346 — Data Visualization Techniques for Economists   
 **Semester:** Fall 2026
-**Student Name:** Areeba Butt
-**Registration Number:** FA24-BEDS-014
-**Selected Variant:** Variant 6 — Balochistan Rural
+**Student Name:** Areeba Tahir   
+**Registration Number:** FA24-BEDS-014    
+**Selected Variant:** Variant 6 - Balochistan Rural
 
 ---
 
@@ -45,8 +45,8 @@ R is used to prepare the data, calculate weighted statistics, and create visuali
 
 The project uses two datasets:
 
-1. `pslm_person_subset.csv` — Contains individual-level information, including age, gender, literacy status, and annual education spending.
-2. `pslm_hh_subset.csv` — Contains household-level information, including household weights, province codes, and urban/rural classification.
+1. `pslm_person_subset.csv`: Contains individual-level information, including age, gender, literacy status, and annual education spending.
+2. `pslm_hh_subset.csv`: Contains household-level information, including household weights, province codes, and urban/rural classification.
 
 The datasets are stored in the `data/` directory.
 
@@ -214,9 +214,9 @@ The Python results are compared with the R results to check whether the observat
 
 ### Output Files
 
-* `figures/literacy_python.svg` — Literacy graph created in Python.
-* `figures/band_table_python.csv` — Python age-band results.
-* `figures/band_table.csv` — R age-band results.
+* `figures/literacy_python.svg`: Literacy graph created in Python.
+* `figures/band_table_python.csv`: Python age-band results.
+* `figures/band_table.csv`: R age-band results.
 
 ### Verification Results
 
@@ -334,7 +334,10 @@ Reproducing the literacy analysis in Python provides a way to check the consiste
 
 ## 10. Reproducibility and Version Control
 
-The datasets are stored in `data/`, analysis scripts in `scripts/`, generated graphs and tables in `figures/`, and the presentation in `slides/`.
+- The datasets are stored in `data/`
+- Analysis scripts in `scripts/`
+- Generated graphs and tables in `figures/`
+- Presentation in `slides/`.
 
 Git is used to track changes throughout the project. The default graph is committed before the redesigned graph so that the original and improved visualizations can be compared.
 
