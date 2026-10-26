@@ -99,9 +99,9 @@
 <text x='569.54' y='348.67' text-anchor='middle' style='font-size: 9.60px;fill: #4D4D4D; font-family: "Arial";' textLength='24.50px' lengthAdjust='spacingAndGlyphs'>60-64</text>
 <text x='341.73' y='362.27' text-anchor='middle' style='font-size: 12.00px; font-family: "Arial";' textLength='92.03px' lengthAdjust='spacingAndGlyphs'>Age band (years)</text>
 <text transform='translate(14.57,179.75) rotate(-90)' text-anchor='middle' style='font-size: 12.00px; font-family: "Arial";' textLength='88.02px' lengthAdjust='spacingAndGlyphs'>Literacy rate (%)</text>
-<text x='5.98' y='14.57' style='font-size: 12.00px; font-weight: bold; font-family: "Arial";' textLength='623.73px' lengthAdjust='spacingAndGlyphs'>In rural KP the literacy gap between men and women is widest at ages 40-44: 55.4% of men vs 7.5% of women</text>
-<text x='5.98' y='377.64' style='font-size: 9.60px; font-family: "Arial";' textLength='580.83px' lengthAdjust='spacingAndGlyphs'>Source: PSLM 2019-20 person file. Sample: persons aged 10-64 in rural KP with non-missing literacy (n = 5,677). Weighted by hhweight.</text>
-<text x='5.98' y='388.01' style='font-size: 9.60px; font-family: "Arial";' textLength='382.08px' lengthAdjust='spacingAndGlyphs'>Hollow markers would show cells with fewer than 30 observations; no cell is that thin here.</text>
+<text x='5.98' y='14.57' style='font-size: 12.00px; font-weight: bold; font-family: "Arial";' textLength='675.28px' lengthAdjust='spacingAndGlyphs'>In rural Balochistan the literacy gap between men and women is widest at ages 40-44: 55.4% of men vs 7.5% of women</text>
+<text x='5.98' y='377.64' style='font-size: 9.60px; font-family: "Arial";' textLength='617.75px' lengthAdjust='spacingAndGlyphs'>Source: PSLM 2019-20 person file. Sample: persons aged 10-64 in rural Balochistan with non-missing literacy (n = 5,677). Weighted by hhweight.</text>
+<text x='5.98' y='388.01' style='font-size: 9.60px; font-family: "Arial";' textLength='263.75px' lengthAdjust='spacingAndGlyphs'>Hollow markers indicate cells with fewer than 30 observations.</text>
 </g>
 </g>
 </svg>

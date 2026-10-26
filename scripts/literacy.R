@@ -43,10 +43,12 @@ p <- ggplot(tab, aes(mid, rate, colour = sex_lab, group = sex_lab)) +
                    sprintf("%.1f", top$Women), "% of women"),
     x = "Age band (years)",
     y = "Literacy rate (%)",
-    caption = paste0("Source: PSLM 2019-20 person file. Sample: persons aged 10-64 in rural KP with ",
-                     "non-missing literacy (n = ", format(nrow(lit), big.mark = ","), "). ",
-                     "Weighted by hhweight.\nHollow markers would show cells with fewer than 30 ",
-                     "observations; no cell is that thin here.")
+caption = paste0(
+  "Source: PSLM 2019-20 person file. Sample: persons aged 10-64 in rural Balochistan with ",
+  "non-missing literacy (n = ", format(nrow(lit), big.mark = ","), "). ",
+  "Weighted by hhweight.\n",
+  "Hollow markers indicate cells with fewer than 30 observations."
+)
   ) +
   theme_minimal(base_size = 12) +
   theme(legend.position = "none",
@@ -70,7 +72,7 @@ write.csv(band_table, "figures/band_table.csv", row.names = FALSE)
 # ---- Print the numbers for the form ----
 print(as.data.frame(band_table))
 get <- function(b, s) sprintf("%.1f", tab$rate[tab$band_lab == b & tab$sex_lab == s])
-cat("\n===== Q3 RESULTS (KP rural) =====\n")
+cat("\n===== Q3 RESULTS (Balochistan  rural) =====\n")
 cat("15-19: women", get("15-19", "Women"), "| men", get("15-19", "Men"), "\n")
 cat("55-59: women", get("55-59", "Women"), "| men", get("55-59", "Men"), "\n")
 cat("Largest gap band:", top$band_lab, "| gap:", sprintf("%.1f", abs(top$gap)), "points\n")
