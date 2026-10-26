@@ -45,8 +45,8 @@ R is used to prepare the data, calculate weighted statistics, and create visuali
 
 The project uses two datasets:
 
-1. `pslm_person_subset.csv`: Contains individual-level information, including age, gender, literacy status, and annual education spending.
-2. `pslm_hh_subset.csv`: Contains household-level information, including household weights, province codes, and urban/rural classification.
+1. [`pslm_person_subset.csv`](https://github.com/areebaa063/ECO346-A1-FA24-BEDS-014/blob/main/data/pslm_person_subset.csv): Contains individual-level information, including age, gender, literacy status, and annual education spending.
+2. [`pslm_hh_subset.csv`](https://github.com/areebaa063/ECO346-A1-FA24-BEDS-014/blob/main/data/pslm_hh_subset.csv): Contains household-level information, including household weights, province codes, and urban/rural classification.
 
 The datasets are stored in the `data/` directory.
 
@@ -98,7 +98,8 @@ Weighted quantiles are calculated according to the assignment's specified method
 
 ### Figure
 
-The weighted histogram is saved as: `figures/distribution.svg`
+The weighted histogram is saved as: [`figures/distribution.svg`](https://github.com/areebaa063/ECO346-A1-FA24-BEDS-014/blob/main/figures/distribution.svg)
+
 
 ### Interpretation
 
@@ -147,7 +148,7 @@ The largest gender gap is identified by comparing the absolute difference betwee
 
 ### Figure
 
-The R literacy graph is saved as: `figures/literacy.svg`
+The R literacy graph is saved as: [`figures/literacy.svg`](https://github.com/areebaa063/ECO346-A1-FA24-BEDS-014/blob/main/figures/literacy.svg)
 
 ### Interpretation
 
@@ -170,13 +171,13 @@ ggplot(lit, aes(age, literate)) +
   geom_point()
 ```
 
-The original graph is saved as: `figures/default.svg`
+The original graph is saved as: [`figures/default.svg`](https://github.com/areebaa063/ECO346-A1-FA24-BEDS-014/blob/main/figures/default.svg)
 
 ### Redesigned Graph
 
 The literacy graph from Question 3 is used as the redesigned visualization.
 
-**File:** `figures/literacy.svg`
+**File:** [`figures/literacy.svg`](https://github.com/areebaa063/ECO346-A1-FA24-BEDS-014/blob/main/figures/literacy.svg)
 
 ### Design Changes
 
@@ -208,13 +209,13 @@ The Python results are compared with the R results to check whether the observat
 
 ### Output Files
 
-* `figures/literacy_python.svg`: Literacy graph created in Python.
-* `figures/band_table_python.csv`: Python age-band results.
-* `figures/band_table.csv`: R age-band results.
+* [`figures/literacy_python.svg`](https://github.com/areebaa063/ECO346-A1-FA24-BEDS-014/blob/main/figures/literacy_python.svg): Literacy graph created in Python.
+* [`figures/band_table_python.csv`](https://github.com/areebaa063/ECO346-A1-FA24-BEDS-014/blob/main/figures/band_table_python.csv)`: Python age-band results.
+* [`figures/band_table.csv`](https://github.com/areebaa063/ECO346-A1-FA24-BEDS-014/blob/main/figures/band_table.csv): R age-band results.
 
 ### Verification Results
 
-The final verification values should be taken from the output of `scripts/04_literacy.py`.
+The final verification values should be taken from the output of [`scripts/literacy.py`](https://github.com/areebaa063/ECO346-A1-FA24-BEDS-014/blob/main/scripts/literacy.py)
 
 | Check                                         | Result                              |
 | --------------------------------------------- | ----------------------------------- |
@@ -245,11 +246,11 @@ ECO346-A1-FA24-BEDS-014/
 │   └── pslm_hh_subset.csv
 │
 ├── scripts/
-│   ├── 00_prep.R
-│   ├── 01_default.R
-│   ├── 02_distribution.R
-│   ├── 03_literacy.R
-│   └── 04_literacy.py
+│   ├── preparation.R
+│   ├── default.R
+│   ├── distribution.R
+│   ├── literacy.R
+│   └── literacy.py
 │
 ├── figures/
 │   ├── default.svg
@@ -274,45 +275,10 @@ ECO346-A1-FA24-BEDS-014/
 * `svglite`
 * `scales`
 
-Install them in RStudio using:
-
-```r
-install.packages(c("tidyverse", "ggplot2", "svglite", "scales"))
-```
-
 ### Required Python Packages
 
 * `pandas`
 * `matplotlib`
-
-Install them in the terminal using:
-
-```bash
-python -m pip install pandas matplotlib
-```
-
-### Run the R Scripts
-
-Run the scripts from the repository root in this order:
-
-```r
-source("scripts/00_prep.R")
-source("scripts/01_default.R")
-source("scripts/02_distribution.R")
-source("scripts/03_literacy.R")
-```
-
-### Run the Python Script
-
-After the R literacy script has created `figures/band_table.csv`, run:
-
-```bash
-python scripts/04_literacy.py
-```
-
-The scripts generate the graphs, tables, and statistical results required for the analysis.
-
----
 
 ## 9. Conclusion
 
@@ -328,10 +294,10 @@ Reproducing the literacy analysis in Python provides a way to check the consiste
 
 ## 10. Reproducibility and Version Control
 
-- The datasets are stored in `data/`
-- Analysis scripts in `scripts/`
-- Generated graphs and tables in `figures/`
-- Presentation in `slides/`.
+- The datasets are stored in [`data/`](https://github.com/areebaa063/ECO346-A1-FA24-BEDS-014/tree/main/data)
+- Analysis scripts in [`scripts/`](https://github.com/areebaa063/ECO346-A1-FA24-BEDS-014/tree/main/scripts)
+- Generated graphs and tables in [`figures/`](https://github.com/areebaa063/ECO346-A1-FA24-BEDS-014/tree/main/figures)
+- Presentation in [`slides/`](https://github.com/areebaa063/ECO346-A1-FA24-BEDS-014/tree/main/slides)
 
 Git is used to track changes throughout the project. The default graph is committed before the redesigned graph so that the original and improved visualizations can be compared.
 
