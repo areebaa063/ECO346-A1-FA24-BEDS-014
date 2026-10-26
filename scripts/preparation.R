@@ -1,5 +1,5 @@
 
-# 00_prep.R: Prepare data for Variant 6 (Balochistan Rural)
+# preparation.R: Prepare data for Variant 6 (Balochistan Rural)
 # Run this script from the repository root.
 
 library(tidyverse)

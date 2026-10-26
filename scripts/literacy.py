@@ -1,5 +1,5 @@
 # Python (Q5)
-# 04_literacy.py: Q3 band table and figure recomputed in Python (Q5)
+# literacy.py: Q3 band table and figure recomputed in Python (Q5)
 # Variant 6: Balochistan Rural
 # Run from the repository root: python scripts/04_literacy.py
 

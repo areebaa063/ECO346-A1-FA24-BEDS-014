@@ -1,4 +1,4 @@
-# 01_default.R: Default scatterplot for Variant 6 (Balochistan Rural)
+# default.R: Default scatterplot for Variant 6 (Balochistan Rural)
 # Question 4: R's untouched default scatterplot
 
 # Load prepared data

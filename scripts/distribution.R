@@ -1,4 +1,4 @@
-# 02_distribution.R: Weighted histogram of annual education spending (Q2)
+# distribution.R: Weighted histogram of annual education spending (Q2)
 # Variant 6: Balochistan Rural
 
 source("scripts/preparation.R")

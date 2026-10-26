@@ -1,4 +1,4 @@
-# 03_literacy.R: weighted literacy rate by age band and sex (Q3)
+# literacy.R: weighted literacy rate by age band and sex (Q3)
 # Run from the repository root.
 source("scripts/preparation.R")
 library(svglite)

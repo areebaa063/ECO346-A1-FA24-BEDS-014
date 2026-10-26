@@ -245,11 +245,11 @@ ECO346-A1-FA24-BEDS-014/
 │   └── pslm_hh_subset.csv
 │
 ├── scripts/
-│   ├── 00_prep.R
-│   ├── 01_default.R
-│   ├── 02_distribution.R
-│   ├── 03_literacy.R
-│   └── 04_literacy.py
+│   ├── preparation.R
+│   ├── default.R
+│   ├── distribution.R
+│   ├── literacy.R
+│   └── literacy.py
 │
 ├── figures/
 │   ├── default.svg
@@ -274,45 +274,12 @@ ECO346-A1-FA24-BEDS-014/
 * `svglite`
 * `scales`
 
-Install them in RStudio using:
-
-```r
-install.packages(c("tidyverse", "ggplot2", "svglite", "scales"))
-```
 
 ### Required Python Packages
 
 * `pandas`
 * `matplotlib`
 
-Install them in the terminal using:
-
-```bash
-python -m pip install pandas matplotlib
-```
-
-### Run the R Scripts
-
-Run the scripts from the repository root in this order:
-
-```r
-source("scripts/00_prep.R")
-source("scripts/01_default.R")
-source("scripts/02_distribution.R")
-source("scripts/03_literacy.R")
-```
-
-### Run the Python Script
-
-After the R literacy script has created `figures/band_table.csv`, run:
-
-```bash
-python scripts/04_literacy.py
-```
-
-The scripts generate the graphs, tables, and statistical results required for the analysis.
-
----
 
 ## 9. Conclusion
 
