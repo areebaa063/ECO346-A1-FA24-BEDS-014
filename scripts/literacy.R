@@ -38,7 +38,7 @@ p <- ggplot(tab, aes(mid, rate, colour = sex_lab, group = sex_lab)) +
                    expand = expansion(add = c(1, 7))) +
   scale_y_continuous(limits = c(0, 100), expand = expansion(mult = c(0.02, 0.02))) +
   labs(
-    title = paste0("In rural KP the literacy gap between men and women is widest at ages ",
+    title = paste0("In rural Balochistan the literacy gap between men and women is widest at ages ",
                    top$band_lab, ": ", sprintf("%.1f", top$Men), "% of men vs ",
                    sprintf("%.1f", top$Women), "% of women"),
     x = "Age band (years)",
